@@ -1,7 +1,7 @@
 ## [The original Japanese version of the README is here.](README_JP.md)
 ## [The original English version of the README is here.](README_EN.md)
 
-# (improved) Beat Saber Overlay
+# (improved) Beat Saber Overlay with BeatLeader support
 
 This is an fork of [rynan4818](https://github.com/rynan4818/beat-saber-overlay)'s fork of Reselim's [Beat Saber Overlay](https://github.com/reselim/beat-saber-overlay) with added support for BeatLeader Star Ranking.
 If a Map is Ranked on either ScoreSaber or BeatLeader, the correspondig SS or BL Ranking will be displayed.
