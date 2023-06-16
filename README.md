@@ -1,7 +1,9 @@
 ## [The original Japanese version of the README is here.](README_JP.md)
 ## [The original English version of the README is here.](README_EN.md)
 
-# (improved) Beat Saber Overlay with BeatLeader support
+# Beat Saber Overlay with BeatLeader support
+
+Note: This Readme is currently WIP
 
 This is an fork of [rynan4818](https://github.com/rynan4818/beat-saber-overlay)'s fork of Reselim's [Beat Saber Overlay](https://github.com/reselim/beat-saber-overlay) with added support for BeatLeader Star Ranking.
 If a Map is Ranked on either ScoreSaber or BeatLeader, the correspondig SS or BL Ranking will be displayed.
@@ -26,15 +28,9 @@ The remaining dependencies are the same as before.
 
    *HttpSiraStatus requires **websocket-sharp** to be installed in ModAssistant. Note that it is often forgotten to install.
 
-   ![image](https://user-images.githubusercontent.com/14249877/194671405-950cdf45-1e9c-4fb3-b198-15404a5145eb.png)
-
    If you are not registered in ModAssistant, go to [BEATMODS](https://beatmods.com/#/mods), set Game Version to `Any` and search for `websocket-sharp` to download.
    
-   ![image](https://user-images.githubusercontent.com/14249877/194671490-6ef3e6e9-de3f-4ff7-8e36-40a22145e2e9.png)
-   
    *websocket-sharp works regardless of BeatSaber version, so it will work with older versions as long as HttpSiraStatus is supported.
-
-   *We have confirmed that the overlay works with [this version](https://github.com/rynan4818/beat-saber-overlay/wiki) of the mod.
 
 2. Download the latest release from the [release page](https://github.com/burnerror/HttpStatusExtention-BeatLeader/releases).
 
