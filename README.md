@@ -3,7 +3,7 @@
 
 # (improved) Beat Saber Overlay
 
-This is an fork of [rynan4818](https://github.com/rynan4818/beat-saber-overlay)'s fork of Reselim's [Beat Saber Overlay](https://github.com/burnerror/beat-saber-overlay) with added support for BeatLeader Star Ranking.
+This is an fork of [rynan4818](https://github.com/rynan4818/beat-saber-overlay)'s fork of Reselim's [Beat Saber Overlay](https://github.com/reselim/beat-saber-overlay) with added support for BeatLeader Star Ranking.
 If a Map is Ranked on either ScoreSaber or BeatLeader, the correspondig SS or BL Ranking will be displayed.
 
 Overlay the score information when distributing or recording Beat Saber via OBS.
