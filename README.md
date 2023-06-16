@@ -8,7 +8,7 @@ If a Map is Ranked on either ScoreSaber or BeatLeader, the correspondig SS or BL
 
 Overlay the score information when distributing or recording Beat Saber via OBS.
 
-![preview](https://github.com/burnerror/beatsaber-beatleader-overlay/blob/980b2b180f62fbb94aede8cfef2dff737772c80f/overlay-preview.png)
+![preview](https://burnerror.github.io/overlay-preview.png)
 
 - The image shows a sample of the full option using HttpStatusExtention and both Rankings.
 
@@ -22,7 +22,7 @@ The remaining dependencies are the same as before.
    - [HttpSiraStatus](https://github.com/denpadokei/beatsaber-http-status)
 
    To use the optional `pp`,`label`,`all` feature, you must also install HttpStatusExtention.
-   - [HttpStatusExtention](https://github.com/denpadokei/HttpStatusExtention)
+   - [HttpStatusExtention](https://github.com/burnerror/HttpStatusExtention-BeatLeader)
 
    *HttpSiraStatus requires **websocket-sharp** to be installed in ModAssistant. Note that it is often forgotten to install.
 
@@ -36,7 +36,7 @@ The remaining dependencies are the same as before.
 
    *We have confirmed that the overlay works with [this version](https://github.com/rynan4818/beat-saber-overlay/wiki) of the mod.
 
-2. Download the latest release from the [release page](https://github.com/rynan4818/beat-saber-overlay/releases).
+2. Download the latest release from the [release page](https://github.com/burnerror/HttpStatusExtention-BeatLeader/releases).
 
 3. Extract the zip to an appropriate folder. (Example: C:\TOOL\beat-saber-overlay)
 
