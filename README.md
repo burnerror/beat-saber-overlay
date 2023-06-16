@@ -8,7 +8,7 @@ If a Map is Ranked on either ScoreSaber or BeatLeader, the correspondig SS or BL
 
 Overlay the score information when distributing or recording Beat Saber via OBS.
 
-![preview](https://github.com/burnerror/beat-saber-overlay/blob/bf12cca56476d07aa65f85311bcf10697565983f/overlay-preview.png)
+![preview](https://github.com/burnerror/beatsaber-beatleader-overlay/blob/980b2b180f62fbb94aede8cfef2dff737772c80f/overlay-preview.png)
 
 - The image shows a sample of the full option using HttpStatusExtention and both Rankings.
 
