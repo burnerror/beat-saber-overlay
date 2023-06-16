@@ -12,7 +12,7 @@ Overlay the score information when distributing or recording Beat Saber via OBS.
 
 - The image shows a sample of the full option using HttpStatusExtention and both Rankings.
 
-For the BeatLeader support to work you will need my fork of [HttpStatusExtension](https://github.com/burnerror/HttpStatusExtention) to provide the overlay with the necessary data - which in turn needs SongDetailsCache >= 1.2.2 
+For the BeatLeader support to work you will need my fork of [HttpStatusExtension](https://github.com/burnerror/HttpStatusExtention-BeatLeader) to provide the overlay with the necessary data - which in turn needs SongDetailsCache >= 1.2.2 
 The remaining dependencies are the same as before.
 
 ## Installation (OBS)
