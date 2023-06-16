@@ -240,6 +240,8 @@ const ui = (() => {
     if (html_id["energy_group"])          var dom_energy_group         = document.getElementById("energy_group");
     if (html_id["star"])                  var dom_star                 = document.getElementById("star");
     if (html_id["star_text"])             var dom_star_text            = document.getElementById("star_text");
+    if (html_id["starBL"])                var dom_starBL               = document.getElementById("starBL");
+    if (html_id["star_textBL"])           var dom_star_textBL          = document.getElementById("star_textBL");
     if (html_id["pp"])                    var dom_pp                   = document.getElementById("pp");
     if (html_id["pp_text"])               var dom_pp_text              = document.getElementById("pp_text");
     if (html_id["now_pp"])                var dom_now_pp               = document.getElementById("now_pp");
@@ -409,6 +411,14 @@ const ui = (() => {
         if (html_id["star_text"]) dom_star_text.innerText = star_text_org;
       }
       
+      if (typeof beatmap.starBL === "undefined" || beatmap.starBL === 0) {
+        if (html_id["starBL"])      dom_starBL.innerText = "";
+        if (html_id["star_textBL"]) dom_star_textBL.innerText = "";
+      } else {
+        if (html_id["starBL"])      dom_starBL.innerText = beatmap.starBL.toFixed(2);
+        if (html_id["star_textBL"]) dom_star_textBL.innerText = star_textBL_org;
+      }
+
       if (html_id["now_pp"])      dom_now_pp.innerText = "";
       if (html_id["now_pp_text"]) dom_now_pp_text.innerText = "";
       
